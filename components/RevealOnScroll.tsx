@@ -20,7 +20,7 @@ export const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children, classN
       },
       {
         threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        rootMargin: "0px 0px -20px 0px"
       }
     );
 
@@ -43,11 +43,10 @@ export const RevealOnScroll: React.FC<RevealOnScrollProps> = ({ children, classN
     <div
       ref={ref}
       style={transitionStyles}
-      className={`transform will-change-transform ${
-        isVisible 
-          ? 'opacity-100 translate-y-0 scale-100 blur-0' 
+      className={`transform will-change-transform ${isVisible
+          ? 'opacity-100 translate-y-0 scale-100 blur-0'
           : 'opacity-0 translate-y-16 scale-95 blur-sm'
-      } ${className}`}
+        } ${className}`}
     >
       {children}
     </div>
