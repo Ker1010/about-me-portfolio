@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
   title: "Full Stack Engineer",
   email: "kermenglee@gmail.com",
   github: "https://github.com/ker1010",
-  linkedin: "https://linkedin.com/in/", // Empty for now
+  linkedin: "https://linkedin.com/in/ker-lee-meng-30734431b", // Empty for now
 };
 
 export const ABOUT_TEXT = `
@@ -44,10 +44,12 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    description: "A fully functional headless e-commerce solution with Stripe integration and CMS management.",
-    tech: ["ASP.NET", "Bootstrap", "Stripe", "Strapi"],
-    image: "https://picsum.photos/600/400?random=2"
+    title: "MyWeatherWX",
+    description: "High-precision weather radar & warning system for Malaysia. Real-time weather updates with interactive maps and alerts.",
+    tech: ["Vite", "TypeScript", "MapLibre GL"],
+    link: "https://mywx.kerserver.org",
+    github: "#",
+    image: "/images/projects/myweatherwx.png"
   },
   {
     id: 5,

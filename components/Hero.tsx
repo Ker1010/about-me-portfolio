@@ -51,9 +51,9 @@ export const Hero: React.FC = () => {
             <a href={SITE_CONFIG.github} target="_blank" rel="noreferrer" className="p-4 bg-white rounded-full text-secondary hover:text-primary hover:shadow-lg transition-all border border-gray-100">
               <Github size={22} />
             </a>
-            {/* <a href={SITE_CONFIG.linkedin} target="_blank" rel="noreferrer" className="p-4 bg-white rounded-full text-secondary hover:text-primary hover:shadow-lg transition-all border border-gray-100">
+            <a href={SITE_CONFIG.linkedin} target="_blank" rel="noreferrer" className="p-4 bg-white rounded-full text-secondary hover:text-primary hover:shadow-lg transition-all border border-gray-100">
               <Linkedin size={22} />
-            </a> */}
+            </a>
             <a href={`mailto:${SITE_CONFIG.email}`} className="p-4 bg-white rounded-full text-secondary hover:text-primary hover:shadow-lg transition-all border border-gray-100">
               <Mail size={22} />
             </a>
